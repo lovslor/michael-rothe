@@ -1,0 +1,211 @@
+/*  NOTES
+
+- fonts:
+  - Cormorant Garamond - (body)
+    2 styles: Italic: 0 | Weight: 300 – 700
+
+  - Allison Tessa Oblique - (headings) [To Buy: myfonts 14.51€]
+  — Alkalami (he doesn't like Allison)
+
+  - Baskerville - Regular (copyright text)
+    3 styles: Regular 400 | Bold 700 | Regular 400 italic
+
+  - Amiri Qu'ran - Regular 400 (description text)
+
+  - Anaheim (paragraph text)
+    2 styles: Italic: 0 | Weight: 400 – 800
+
+
+
+
+- Colors:
+  - black - #000000
+  - black grey - #1E1E1E
+  - white - #FFFFFF
+
+*/
+
+/* Universal Reset */
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Temporary Styles */
+
+* /*{
+  padding: 0.5rem;
+  border: 2px solid rgb(200,200,200);
+} */
+
+body {
+  padding: 1.5%;   }
+} */
+
+
+/* Utility Classes */
+.tall-50  { min-height: 50vh; }
+.tall-60  { min-height: 60vh; }
+.tall-70  { min-height: 70vh; }
+.tall-80  { min-height: 80vh; }
+.tall-90  { min-height: 90vh; }
+.tall-100 { min-height: 100vh;}
+
+.padded     { padding: 5%;   }
+.padded-lg  { padding: 10%;  }
+.padded-1   { padding: 1rem; }
+.padded-2   { padding: 2rem; }
+
+.grid.padded-2 { padding: 2rem; }
+
+.padded-t  { padding-top: 5%;    }
+.padded-b  { padding-bottom: 5%; }
+.padded-l  { padding-left: 5%;   }
+.padded-r  { padding-right: 5%;  }
+
+.padded-0   { padding: 0;        }
+.padded-b-0 { padding-bottom: 0; }
+.margin-b-0 { margin-bottom: 0;  }
+
+.margin-lr   { margin-left: 1rem; margin-right: 1rem;}
+
+.bg-featured  { background-color: #1C2A2C; }
+.bg-dark      { background-color: #24282B; }
+
+.light-text   { color: white; }
+
+.left   { text-align: left;   }
+.center { text-align: center; }
+.right  { text-align: right;  }
+
+.italic { font-style: italic; }
+
+
+/* General Typography & Universal Styles */
+body {
+  font-family: 'Cormorant Garamond', serif;
+  color: #1E1E1E;
+}
+
+header a {
+  display: inline-block;
+  color: inherit;
+  font-weight: 200;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1.25rem;
+}
+
+nav a .contact {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h1 span {
+   font-family: 'Alkalami', serif;
+   display: block;
+   font-size: 4rem;
+   line-height: 0.9;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 { text-align: center; }
+
+
+p {
+  font-family: 'Anaheim', sans-serif;
+}
+
+footer p {
+  font-family: 'Libre Baskerville', serif;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+.text-xl { font-size: 8rem; }
+
+/* Header & Footer */
+/*  Section  */
+/*section {
+  border: 1px solid black;
+} */
+
+/* Icon Grid Section  */
+
+.fa-brands {
+  font-size: 1.8rem;
+}
+/* Images & Background Images */
+.padded-img { padding: 2.5%; }
+.padded-bottom { padding: 5%; }
+
+
+.card {
+  /* border:1px solid black; */
+  /* top right bottom left */
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  max-width: 25em;
+  /* box-shadow: 2px 2px 4px #888888; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border: 1px solid black;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-image: url('/img/placeholder.jpg');
+}
+
+.bg-michael {
+  background-size: cover;
+  background-position: center;
+  background-image: url('/img/wilhelm_brasse_portret_en.jpg');
+  float: left;
+}
+
+.bg-art {
+  background-size: cover;
+  background-position: center;
+  background-image: url('/img/placeholder.jpg');
+}
+
+/* Mobile Styles */
+/* Gridlex Media Queries
+@media (max-width: 36em)	Max 576px	  _xs-*
+@media (max-width: 48em)	Max 768px	  _sm-*
+@media (max-width: 64em)	Max 1024px	_md-*
+@media (max-width: 80em)	Max 1280px	_lg-*
+
+*/
