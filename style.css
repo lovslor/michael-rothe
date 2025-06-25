@@ -5,6 +5,7 @@
     2 styles: Italic: 0 | Weight: 300 – 700
 
   - Allison Tessa Oblique - (headings) [To Buy: myfonts 14.51€]
+
   — Alkalami (he doesn't like Allison)
 
   - Baskerville - Regular (copyright text)
@@ -28,7 +29,7 @@
 /* Universal Reset */
 * {
   padding: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box; */
 }
 
 /* Temporary Styles */
@@ -111,6 +112,7 @@ a {
 nav a {
   text-decoration: none;
   padding: 1.25rem;
+  font-size: 1.1rem;
 }
 
 nav a .contact {
@@ -131,9 +133,9 @@ h1 span {
 }
 
 h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 300;
-  text-align: center;
+  font-size: 2rem;
+  font-family: 'Alkalami', serif;
+  font-weight: bold;
 }
 
 h3 { text-align: center; }
@@ -209,3 +211,23 @@ img {
 @media (max-width: 80em)	Max 1280px	_lg-*
 
 */
+
+@media (max-width: 36em){
+  .tall-40  { min-height: 40vh; }
+  .margin-lr   { margin-left: 0; margin-right: 0;}
+  .padded {padding: 0;}
+  .banner {line-height: 6rem;}
+  .date {margin: 1rem;
+         margin-left: 8rem;}
+  .mob-hide {display: none;}
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 85%;
+    margin: 0.5rem;}
+
+  section p {
+    font-size: 1.5rem;
+  }
+  }
