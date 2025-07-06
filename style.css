@@ -52,8 +52,11 @@ body {
 .tall-90  { min-height: 90vh; }
 .tall-100 { min-height: 100vh;}
 
+.relative { postion: relative; }
+
 .padded     { padding: 5%;   }
 .padded-lg  { padding: 10%;  }
+.padded-0   { padding: 0;    }
 .padded-1   { padding: 1rem; }
 .padded-2   { padding: 2rem; }
 
@@ -101,6 +104,10 @@ body {
 
 .space {
   word-spacing: 25px;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .letter { letter-spacing: 0.03em;}
@@ -219,6 +226,22 @@ img {
   background-size: cover;
   background-position: center;
   background-image: url('/img/placeholder.jpg');
+}
+
+/* Slider */
+.last-post {
+  font-size: 4rem;
+  font-weight: 100;
+  position: absolute;
+  top: 55%;
+  left: 1.5rem;
+}
+
+.next-post {
+  font-size: 4rem;
+  position: absolute;
+  top: 55%;
+  right: 1.5rem;
 }
 
 /* Mobile Styles */
