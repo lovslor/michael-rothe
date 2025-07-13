@@ -127,7 +127,6 @@ header a {
   padding: 0.5rem;
 }
 
-
 a {
   color: inherit;
   text-decoration: none;
@@ -198,6 +197,45 @@ footer p {
   font-size: 2.5rem;
 }
 
+/* Hamburger Button  */
+.hamburger-button {
+  cursor: pointer;
+  padding: 0 0.5rem;
+  display: inline-block; /*makes them stack in line of each other */
+  font-weight: 200;
+  font-size: 2.5rem;
+  line-height: 0.8;
+  margin-top: -0.7rem;
+  position: fixed;
+  right: 1rem;
+  top: 2.5rem;
+  z-index: 1;
+}
+
+.hamburger-button.active {
+  color: blanchedalmond;
+}
+
+.mobile-menu {
+  background-color: lightblue;
+  padding: 5%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: inherit;
+  padding: 5vh 5%;
+  display: block; /*makes them stack on top of each other */
+}
+
+
+
 /* Images & Background Images */
 .padded-img { padding: 2.5%; }
 .padded-bottom { padding: 5%; }
@@ -244,14 +282,18 @@ img {
   right: 1.5rem;
 }
 
+/* Default Responsive Styles (Dekstop and below) */
 /* Mobile Styles */
 /* Gridlex Media Queries
 @media (max-width: 36em)	Max 576px	  _xs-*
 @media (max-width: 48em)	Max 768px	  _sm-*
 @media (max-width: 64em)	Max 1024px	_md-*
 @media (max-width: 80em)	Max 1280px	_lg-*
-
 */
+
+.mob-show {
+  display: none;
+}
 
 @media (max-width: 36em){
   .tall-40  { min-height: 40vh; }
@@ -263,6 +305,7 @@ img {
     margin-left: 8rem;
   }
   .mob-hide { display: none; }
+  .mob-show { display: block;}
 
   h2 {
     font-size: 3rem;

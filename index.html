@@ -22,23 +22,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Amiri+Quran&family=Anaheim:wght@400..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <!-- My own custom stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css"> 
   </head>
 
   <body>
     <!-- Header -->
     <header class="grid-middle">
-      <div class="col-4 padded-0">
+      <div class="col-5 padded-0">
         <a href="/index.html" class="logo"> MTR </a>
       </div>
-      <div class="col-8 padded-0 right">
-        <nav class="nav-mobile">
+
+        <nav class="col-7 padded-0 right mob-hide">
           <a href="/work.html"> Selected Work </a>
           <a href="/about.html"> About </a>
           <a href="/contact.html"> Contact</a>
         </nav>
+     
+      <div class="col-7 right">
+        <a class="hamburger-button mob-show"> &#9776;</a>
       </div>
+
     </header>
+
+    <div class="mobile-menu">
+      <nav>
+        <a href="/work.html"> Selected Work </a>
+        <a href="/about.html"> About </a>
+        <a href="/contact.html"> Contact</a>
+      </nav>
+    </div>
+
+
 
     <!-- Banner -->
     <section class="grid padded margin-lr center bg-image light-text tall-90">
@@ -52,7 +66,9 @@
     </footer>
 
     <!-- This links to a jQuery file from a Content Delivery Network -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
     </script>
   </body>
 </html>
