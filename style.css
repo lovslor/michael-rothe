@@ -218,6 +218,7 @@ footer p {
 
 .mobile-menu {
   background-color: lightblue;
+  display:none;
   padding: 5%;
   position: fixed;
   top: 0;
