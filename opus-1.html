@@ -26,25 +26,39 @@
   </head>
 
   <body>
-  <!-- Header -->
-  <header class="grid-middle">
-    <div class="col-4 padded-0">
+   <!-- Header -->
+   <header class="grid-middle">
+    <div class="col-5 padded-0">
       <a href="/index.html" class="logo"> MTR </a>
     </div>
 
-    <nav class="col-8 padded-0 right">
+      <nav class="col-7 padded-0 right mob-hide">
+        <a href="/work.html"> Selected Work </a>
+        <a href="/about.html"> About </a>
+        <a href="/contact.html"> Contact</a>
+      </nav>
+   
+    <div class="col-7 right">
+      <a class="hamburger-button mob-show"> &#9776;</a>
+    </div>
+
+  </header>
+
+  <div class="mobile-menu">
+    <nav>
       <a href="/work.html"> Selected Work </a>
       <a href="/about.html"> About </a>
       <a href="/contact.html"> Contact</a>
     </nav>
-  </header>
+  </div>
+
 
   <!-- Portfolio Section -->
   <section class="grid relative padded margin-lr center tall-90">
     <div class="col-6_sm-12 bg-art tall-40 "></div>
     <div class="col-1 mob-hide"></div>
     <div class="col-5_sm-12-middle padded left">
-      <h2 class="margin-top">Opus No.1</h1>
+      <h2 class="margin-top">Opus No.1</h2>
       <p class="date space">Year2024  24x30  250EUR</p>
       <p class="letter"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
@@ -57,5 +71,6 @@
   <!-- This links to a jQuery file from a Content Delivery Network -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer">
   </script>
+  <script src="/myscript.js"></script>
 </body>
 </html>

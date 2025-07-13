@@ -52,7 +52,7 @@ body {
 .tall-90  { min-height: 90vh; }
 .tall-100 { min-height: 100vh;}
 
-.relative { postion: relative; }
+.relative { position: relative; }
 
 .padded     { padding: 5%;   }
 .padded-lg  { padding: 10%;  }
@@ -213,13 +213,13 @@ footer p {
 }
 
 .hamburger-button.active {
-  color: blanchedalmond;
+  color: #1E1E1E;
 }
 
 .mobile-menu {
-  background-color: lightblue;
+  background-color: #FFFFFF;
   display:none;
-  padding: 5%;
+  padding: 20%;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -229,10 +229,12 @@ footer p {
 }
 
 .mobile-menu a {
-  text-decoration: none;
+  display: block; /*makes them stack on top of each other */
   color: inherit;
   padding: 5vh 5%;
-  display: block; /*makes them stack on top of each other */
+  font-weight: normal;
+  font-size: 2.5rem;
+  text-decoration: none;
 }
 
 
@@ -311,7 +313,7 @@ img {
   h2 {
     font-size: 3rem;
     font-weight: bold;
-    opacity: 85%;
+   /* opacity: 85%; */
     margin: 0.5rem;
   }
 
