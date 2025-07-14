@@ -310,6 +310,22 @@ img {
   .mob-hide { display: none; }
   .mob-show { display: block;}
 
+  /* Slider */
+.last-post {
+  font-size: 4rem;
+  font-weight: 100;
+  position: absolute;
+  top: 90%;
+  left: 1.5rem;
+}
+
+.next-post {
+  font-size: 4rem;
+  position: absolute;
+  top: 90%;
+  right: 1.5rem;
+}
+
   h2 {
     font-size: 3rem;
     font-weight: bold;
