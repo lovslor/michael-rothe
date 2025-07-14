@@ -302,6 +302,7 @@ img {
   .tall-40  { min-height: 40vh; }
   .margin-lr   { margin-left: 0; margin-right: 0;}
   .padded { padding: 0; }
+  .padded-b-mob  { padding-bottom: 15%; }
   .banner { line-height: 6rem; }
   .date {
     margin: 1rem;
