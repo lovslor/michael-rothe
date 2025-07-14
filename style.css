@@ -39,8 +39,7 @@
   border: 2px solid rgb(200,200,200);
 } */
 
-body {
-  padding: 1.5%;   }
+body { padding: 1.5%;   }
 
 
 
@@ -305,6 +304,8 @@ img {
   .padded-b-mob  { padding-bottom: 15%; }
   .banner { line-height: 6rem; }
   .date {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
     margin: 1rem;
     margin-left: 8rem;
   }
@@ -327,6 +328,8 @@ img {
   right: 1.5rem;
 }
 
+  /* Typography */
+
   h2 {
     font-size: 3rem;
     font-weight: bold;
@@ -334,7 +337,7 @@ img {
     margin: 0.5rem;
   }
 
-  section p {
-    font-size: 1.5rem;
-  }
+  section p { font-size: 1.5rem; }
+
+  footer p { font-size: 0.8rem; }
   }
